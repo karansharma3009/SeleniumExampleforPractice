@@ -47,7 +47,7 @@ public class PopUpHandlerExample {
       fail(verificationErrorString);
     }
   }
-
+ 
   private boolean isElementPresent(By by) {
     try {
       driver.findElement(by);
@@ -56,7 +56,7 @@ public class PopUpHandlerExample {
       return false;
     }
   }
-
+// comment here 
   private String closeAlertAndGetItsText() {
     try {
       Alert alert = driver.switchTo().alert();
